@@ -1,0 +1,13 @@
+.body-content {
+    flex: 1; /* Take the remaining space below the header */
+    background: var(--gradient-light-pink-to-blue);
+    display: grid;
+    place-items: center;
+    min-height: 0; /* Ensure it doesn't overlap with the header */
+    overflow-y: auto; /* Allow scrolling if content exceeds available space */
+}
+@media (max-width: 912px) {
+    .body-content {
+        margin-top: 4.38rem; /* Allow the content to adjust based on its height */
+    }
+}

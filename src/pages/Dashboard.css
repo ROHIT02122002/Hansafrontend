@@ -1,0 +1,6 @@
+.dashboard {
+    display: flex;
+    flex-direction: column; /* Stack Header and Bodycontent vertically */
+    height: 100vh; /* Full height of the viewport */
+    overflow: hidden; /* Avoid overflow issues */
+}
